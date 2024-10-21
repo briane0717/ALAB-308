@@ -42,8 +42,9 @@ console.log(divisibleBy5);
 // is n1 greater then n4
 let isFirstNumberLarger = n1 > n4
 console.log(isFirstNumberLarger);
-
-
+// subtract n1 from n2
+let subtract = n2-n1
+console.log(subtract);
 // Finally, log the results.
 console.log(isValid);
 
