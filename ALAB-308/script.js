@@ -39,6 +39,10 @@ const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
 const divisibleBy5= (n1 % 5 == 0) && (n2 % 5 == 0) && (n3 % 5 == 0) && (n4 % 5 == 0);
 console.log(divisibleBy5);
 
+// is n1 greater then n4
+let isFirstNumberLarger = n1 > n4
+console.log(isFirstNumberLarger);
+
 
 // Finally, log the results.
 console.log(isValid);
