@@ -36,7 +36,9 @@ const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
 //
 // Check to see if numbers divisible by 5
 //If there is a remainder it is not divisible by 5
-const divisibleBy5= (n1 % 5 == 0) + (n2 % 5 == 0)+ (n3 % 5 == 0)+ (n4 % 5 == 0)
+const divisibleBy5= (n1 % 5 == 0) && (n2 % 5 == 0) && (n3 % 5 == 0) && (n4 % 5 == 0)
+
+const firstNum = 
 
 
 
