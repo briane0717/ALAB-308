@@ -45,8 +45,9 @@ console.log(isFirstNumberLarger);
 // subtract n1 from n2
 let subtract = n2-n1
 console.log(subtract);
-// Finally, log the results.
-console.log(isValid);
+
+let multiply = (subtract*n3)
+console.log(multiply);
 
 // Here's another example of how this COULD be done,
 // but it SHOULD NOT be done this way. As programmers,
