@@ -1,7 +1,7 @@
 // The initial numbers that must be verified.
-const n1 = 8;
-const n2 = 3;
-const n3 = 4;
+const n1 = 10;
+const n2 = 15;
+const n3 = 20;
 const n4 = 5;
 
 // Check one: add up to 50
@@ -31,6 +31,8 @@ const isUnique = n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 
 // the ! operator. We could also have tested for 
 // "isUnder25" as an alternative.
 const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
+
+const divisibleBy5= (n1 % 5) + (n2 % 5)+ (n3 % 5)+ (n4 % 5)
 
 // Finally, log the results.
 console.log(isValid);
