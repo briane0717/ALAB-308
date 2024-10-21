@@ -1,8 +1,8 @@
 // The initial numbers that must be verified.
-const n1 = 10;
+const n1 = 5;
 const n2 = 15;
 const n3 = 20;
-const n4 = 5;
+const n4 = 10;
 
 // Check one: add up to 50
 // This is a fairly simple operation using
@@ -36,10 +36,8 @@ const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
 //
 // Check to see if numbers divisible by 5
 //If there is a remainder it is not divisible by 5
-const divisibleBy5= (n1 % 5 == 0) && (n2 % 5 == 0) && (n3 % 5 == 0) && (n4 % 5 == 0)
-
-const firstNum = 
-
+const divisibleBy5= (n1 % 5 == 0) && (n2 % 5 == 0) && (n3 % 5 == 0) && (n4 % 5 == 0);
+console.log(divisibleBy5);
 
 
 // Finally, log the results.
